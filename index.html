@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana do Zero ao Programador Contratado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <picture>
+                <source srcset="./src/imagens/bg-blurryface.png" media="(min-width: 768px)">
+                <img class="imagem" src="./src/imagens/bg-blurryface-mobile.png" alt="Personagem Blurryface">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Blurryface</h2>
+                <p class="descricao">Narrativa: Introdução do vilão interno — Blurryface.
+                    Blurryface é uma personificação da insegurança de Tyler. Ele pinta o pescoço e as mãos de preto nos shows para representar esse personagem.
+                    A narrativa mostra alguém tentando manter o controle enquanto é constantemente sabotado por sua própria mente.
+                    Tema central: Insegurança, dúvida e identidade pessoal.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-trench.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/bg-trench-mobile.png" alt="Personagem Trench" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Trench</h2>
+                <p class="descricao">Narrativa: Mundo fictício chamado Dema, controlado por líderes opressores chamados os Nove Bispos.
+                    Tyler assume o papel de um personagem chamado Clancy, tentando fugir de Dema com a ajuda de um grupo rebelde chamado Banditos.
+                    Dema simboliza depressão e controle mental, enquanto os Banditos representam resistência e esperança.
+                    Tema central: Liberdade vs. opressão interna.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-sai.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/bg-sai-mobile.png" alt="Personagem Scaled And Icy" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Scaled And Icy</h2>
+                <p class="descricao">Narrativa: Manipulação disfarçada de positividade.
+                    Após fugir de Dema em Trench, Clancy desaparece. Os Bispos tomam o controle e criam uma falsa sensação de liberdade e otimismo.
+                    O álbum representa essa manipulação: músicas alegres e coloridas mascaram a repressão real.
+                    A propaganda de Dema tenta convencer o público de que Clancy está morto ou conformado. () .
+                    Tema central: Ilusão de liberdade, repressão emocional disfarçada, controle disfarçado de conforto.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-clancy.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/bg-clancy-mobile.png" alt="Personagem Clancy" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Clancy</h2>
+                <p class="descricao">Narrativa: Retorno e confronto final.
+                    Clancy retorna a Dema por vontade própria, agora mais forte e consciente.
+                    Ele enfrenta os Bispos diretamente, com o objetivo de destruir o sistema de opressão.
+                    Representa o fim da fuga: em vez de escapar, ele encara seus traumas de frente.
+                    É a conclusão da luta interna iniciada em Blurryface, fechando o ciclo da narrativa.
+                    Tema central: Enfrentamento da dor, libertação real, aceitação e superação.</p>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao blurryface selecionado">
+                <img src="./src/imagens/icone-blurryface.png" alt="Ícone Blurryface">
+            </button>
+        </li>
+        <li>
+            <button class="botao trench">
+                <img src="./src/imagens/icone-trench.png" alt="Ícone Trench" />
+            </button>
+        </li>
+        <li>
+            <button class="botao sai">
+                <img src="./src/imagens/icone-sai.png" alt="Ícone Scaled And Icy" />
+            </button>
+        </li>
+        <li>
+            <button class="botao clancy">
+                <img src="./src/imagens/icone-clancy.png" alt="Ícone Clancy" />
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
